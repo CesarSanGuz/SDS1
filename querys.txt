@@ -1,0 +1,43 @@
+Create database projectSDS
+go
+use projectSDS
+go
+create table producto(
+pr_tipoProductoGeneral int not null,
+pr_descTipProductoGeneral varchar(25) not null,
+pr_tipoProducto int not null,
+pr_descTipProducto varchar(25) not null,
+pr_producto int not null,
+pr_descProducto varchar(25) not null,
+pr_cantStock numeric not null,
+pr_precio numeric(10,2) not null,
+primary key (pr_tipoProductoGeneral,pr_tipoProducto, pr_producto)
+);
+
+INSERT INTO [dbo].[producto] VALUES (1,'Bebidas',1,'Coctel',1,'Luna de Miel',10,12.5)
+GO
+INSERT INTO [dbo].[producto] VALUES (1,'Bebidas',2,'Corto',1,'Vodka',100,12.5)
+GO
+INSERT INTO [dbo].[producto] VALUES (1,'Bebidas',2,'Corto',2,'Ron',100,22.5)
+GO
+INSERT INTO [dbo].[producto] VALUES (2,'Plato',1,'Piqueo',1,'Tequeños',20,19.99)
+GO
+INSERT INTO [dbo].[producto] VALUES (2,'Plato',2,'Menu',1,'Pollo a la Brasa',35,25.00)
+GO
+INSERT INTO [dbo].[producto] VALUES (2,'Plato',2,'Menu',2,'Lomo Saltado',45,23.00)
+GO
+
+create table venta(
+ve_ventaId int not null IDENTITY(1,1) primary key,
+ve_mesa int not null,
+ve_total decimal(10,2) not null
+)
+
+create table venta_detalle(
+vd_ventaId int not null,
+vd_tipoProducto int not null,
+vd_producto int not null,
+vd_cantidad numeric not null,
+vd_total numeric(10,2) not null,
+primary key (vd_ventaId, vd_tipoProducto,vd_producto)
+)
