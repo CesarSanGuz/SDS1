@@ -1,0 +1,743 @@
+.WEB_CONTE_cabeceraSuperior {
+	width: 776px; height: auto;
+}
+.WEB_CONTE_opcionesSuperior {
+	padding: 0px 5px 0px 20px; width: 751px; height: 47px; 
+position: relative;
+}
+.WEB_CONTE_opcionesSuperior ul {
+	list-style: none; margin: 0px; padding: 0px; width: 261px; 
+height: 22px;
+}
+.WEB_CONTE_opcionesSuperior li {
+	font: 10px/23px "Trebuchet MS"; list-style: none; color: rgb(6, 80, 128); float: right; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_CONTE_opcionesSuperior li a {
+	list-style: none; padding: 0px 15px; height: auto; display: block;
+}
+* + html .WEB_CONTE_opcionesSuperior li a {
+	display: inline-block;
+}
+* html .WEB_CONTE_opcionesSuperior li a {
+	display: inline-block;
+}
+.WEB_CONTE_opcionesSuperior li a:link {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_CONTE_opcionesSuperior li a:visited {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_CONTE_opcionesSuperior li a:hover {
+	background: url("images/web/fondo_menu_rollover.gif") no-repeat center 0px; color: rgb(6, 80, 128); text-decoration: underline;
+}
+.WEB_CONTE_opcionesSuperior li a:active {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_CONTE_logo {
+	background: url("images/web/fondo_logo_superior.jpg") no-repeat; width: 776px; height: 96px; position: relative;
+}
+.WEB_logo {
+	left: 22px; top: 14px; width: 275px; height: 71px; position: absolute; cursor: pointer;
+}
+.WEB_CONTE_cabeceraInferior {
+	width: auto; height: auto; position: relative;
+}
+.WEB_CONTE_buscador {
+	top: 2px; width: 360px; height: 28px; right: 0px; position: absolute;
+}
+.WEB_CONTE_buscador input {
+	background: none; font: 11px/normal "Trebuchet MS"; margin: 0px 0px 0px 13px; padding: 0px; border: currentColor; border-image: none; left: 125px; top: 5px; width: 78px; height: 16px; color: rgb(51, 51, 51); position: absolute; z-index: 0; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_CONTE_buscador select {
+	background: none; font: 11px/normal "Trebuchet MS"; margin: 0px; padding: 0px; border: currentColor; border-image: none; left: 4px; top: 4px; width: 125px; height: auto; color: rgb(51, 51, 51); overflow: hidden; border-collapse: collapse; position: absolute; z-index: 0; font-size-adjust: none; font-stretch: normal;
+}
+* html .WEB_CONTE_buscador select {
+	top: 2px;
+}
+* + html .WEB_CONTE_buscador select {
+	top: 2px;
+}
+.WEB_CONTE_buscadorBoton {
+	top: 5px; width: 14px; height: 14px; right: 118px; position: absolute; cursor: pointer;
+}
+.WEB_CONTE_enlaceBuscador {
+	font: 10px/normal "Trebuchet MS"; margin: 0px; top: 4px; width: auto; height: auto; right: 11px; color: rgb(6, 80, 128); position: absolute; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_CONTE_enlaceBuscador a:link {
+	color: rgb(6, 80, 128); text-decoration: underline;
+}
+.WEB_CONTE_enlaceBuscador a:visited {
+	color: rgb(6, 80, 128); text-decoration: underline;
+}
+.WEB_CONTE_enlaceBuscador a:hover {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_CONTE_enlaceBuscador a:active {
+	color: rgb(6, 80, 128); text-decoration: underline;
+}
+.WEB_mensajeAnio {
+	font: 10px/normal "Trebuchet MS"; margin: 0px; left: 10px; top: 8px; width: auto; height: auto; color: rgb(6, 80, 128); position: absolute; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_tipoCambio {
+	font: bold 10px/normal "Century Gothic"; margin: 0px; left: 10px; top: 38px; color: rgb(0, 36, 105); text-transform: uppercase; position: absolute; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_moneda {
+	background: url("images/web/vineta_moneda.gif") no-repeat 0px 4px; font: bold 10px/normal "Century Gothic"; margin: 0px; left: 202px; top: 38px; color: rgb(0, 36, 105); text-transform: uppercase; padding-left: 6px; position: absolute; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_compra {
+	background: url("images/web/vineta_moneda.gif") no-repeat 0px 4px; font: bold 10px/normal "Century Gothic"; margin: 0px; left: 329px; top: 38px; color: rgb(0, 36, 105); text-transform: uppercase; padding-left: 6px; position: absolute; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_venta {
+	background: url("images/web/vineta_moneda.gif") no-repeat 0px 4px; font: bold 10px/normal "Century Gothic"; margin: 0px; left: 425px; top: 38px; color: rgb(0, 36, 105); text-transform: uppercase; padding-left: 6px; position: absolute; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_tipoCambio span {
+	font: 10px/normal "Trebuchet MS"; margin: 0px 0px 0px 5px; color: rgb(54, 98, 181); text-transform: none; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_moneda span {
+	font: 10px/normal "Trebuchet MS"; margin: 0px 0px 0px 5px; color: rgb(54, 98, 181); text-transform: none; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_compra span {
+	font: 10px/normal "Trebuchet MS"; margin: 0px 0px 0px 5px; color: rgb(54, 98, 181); text-transform: none; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_venta span {
+	font: 10px/normal "Trebuchet MS"; margin: 0px 0px 0px 5px; color: rgb(54, 98, 181); text-transform: none; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_detalleTipoCambio {
+	background: url("images/web/vineta_detalleTipoCambio.gif") no-repeat right 4px; font: bold 11px/normal "Trebuchet MS"; margin: 0px; top: 37px; right: 16px; color: rgb(0, 67, 181); padding-right: 18px; position: absolute; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_detalleTipoCambio a:link {
+	color: rgb(0, 67, 181); text-decoration: none;
+}
+.WEB_detalleTipoCambio a:visited {
+	color: rgb(0, 67, 181); text-decoration: none;
+}
+.WEB_detalleTipoCambio a:hover {
+	color: rgb(0, 67, 181); text-decoration: underline;
+}
+.WEB_detalleTipoCambio a:active {
+	color: rgb(0, 67, 181); text-decoration: none;
+}
+.WEB_CONTE_placeHolderBanner {
+	width: auto; height: auto;
+}
+.WEB_CONTE_bannerPrincipal {
+	left: 0px; top: 0px; width: 576px; height: auto; position: relative;
+}
+.WEB_CONTE_bannerBotones {
+	left: 0px; width: 576px; height: 26px; bottom: 0px; position: absolute; z-index: 200;
+}
+.WEB_CONTE_placeHolderHome {
+	width: auto; height: auto;
+}
+.WEB_CONTE_bloqueHome {
+	width: 576px; height: auto;
+}
+.WEB_CONTE_bloqueHome_f1_c1 {
+	background: url("images/web/fondo_contenidos.gif") repeat-x rgb(255, 255, 255); padding: 28px 22px 15px; width: auto; height: auto;
+}
+.WEB_CONTE_tipoInteres {
+	width: 178px; height: auto; margin-right: 22px; float: left; display: inline;
+}
+.WEB_CONTE_tituloTipoIntereses {
+	padding: 0px 0px 4px; width: auto; height: auto;
+}
+.WEB_CONTE_tituloTipoIntereses h3 {
+	font: 11px/normal Arial, Helvetica, sans-serif; margin: 0px; color: rgb(0, 36, 105); font-size-adjust: none; font-stretch: normal;
+}
+.WEB_CONTE_contenidoTipoIntereses {
+	width: auto; height: auto;
+}
+.WEB_CONTE_contenidoTipoIntereses th {
+	font: 11px/normal Arial, Helvetica, sans-serif; margin: 0px; text-align: left; color: rgb(0, 36, 105); padding-left: 4px; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_CONTE_contenidoTipoIntereses p {
+	font: 10px/normal "Trebuchet MS"; margin: 0px 0px 8px; color: rgb(54, 98, 181); font-size-adjust: none; font-stretch: normal;
+}
+.WEB_CONTE_contenidoTipoIntereses td {
+	font: 10px/11px "Trebuchet MS"; color: rgb(54, 98, 181); font-size-adjust: none; font-stretch: normal;
+}
+.WEB_TBL_tipoIntereses {
+	padding: 0px; width: 100%; height: auto; border-collapse: collapse;
+}
+.WEB_TD_tipoIntereses1 {
+	background: rgb(242, 244, 247); margin: 0px; padding: 1px 4px; border: 1px solid rgb(191, 200, 217); border-image: none; border-collapse: separate;
+}
+.WEB_TD_tipoIntereses2 {
+	background: rgb(255, 255, 255); margin: 0px; padding: 1px 4px; border: 1px solid rgb(191, 200, 217); border-image: none; border-collapse: separate;
+}
+.WEB_CONTE_rentabilidad {
+	width: 332px; height: auto; float: left;
+}
+.WEB_CONTE_tituloRentabilidad {
+	padding: 0px 0px 4px; width: auto; height: auto;
+}
+.WEB_CONTE_tituloRentabilidad h3 {
+	font: 11px/normal Arial, Helvetica, sans-serif; margin: 0px; color: rgb(0, 36, 105); font-size-adjust: none; font-stretch: normal;
+}
+.WEB_CONTE_zonaRentabilidad {
+	width: 332px; height: auto; position: relative; z-index: 9999;
+}
+.WEB_CONTE_zonaRentabilidad h4 {
+	background: url("images/web/vineta_detalleTipoCambio.gif") no-repeat 0px 2px; font: bold 10px/normal Arial, Helvetica, sans-serif; margin: 18px 0px 0px; right: 10px; bottom: 5px; color: rgb(0, 67, 181); padding-left: 13px; text-decoration: underline; float: left; position: absolute; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_CONTE_popupRentabilidad {
+	background: rgb(243, 244, 248); padding: 20px; border: 1px solid rgb(191, 200, 217); border-image: none; top: 114px; width: 240px; height: auto; right: 10px; display: none; position: absolute; z-index: 9999;
+}
+.WEB_CONTE_popupRentabilidad p {
+	font: 11px/normal Arial, Helvetica, sans-serif; margin: 0px 0px 10px; color: rgb(54, 98, 181); font-size-adjust: none; font-stretch: normal;
+}
+.WEB_CONTE_bloqueHome_f2_c1 {
+	background: url("images/home/fondo_bloque_home.gif") repeat-x rgb(255, 255, 255); padding: 28px 22px 15px; width: auto; height: auto;
+}
+.WEB_CONTE_noticias {
+	width: 265px; height: 200px; border-right-color: rgb(191, 200, 217); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.WEB_CONTE_tituloNoticias {
+	padding: 0px 0px 20px; width: auto; height: auto;
+}
+.WEB_CONTE_tituloNoticias h3 {
+	font: 11px/normal Arial, Helvetica, sans-serif; margin: 0px; color: rgb(0, 36, 105); font-size-adjust: none; font-stretch: normal;
+}
+.WEB_CONTE_datoScroll {
+	width: auto; height: auto; margin-bottom: 10px;
+}
+.WEB_TXT_subtituloNoticia {
+	font: bold 11px/11px "Trebuchet MS"; margin: 0px 0px 5px; color: rgb(54, 98, 181); font-size-adjust: none; font-stretch: normal;
+}
+.WEB_TXT_subtituloNoticia a:link {
+	color: rgb(54, 98, 181); text-decoration: none;
+}
+.WEB_TXT_subtituloNoticia a:visited {
+	color: rgb(54, 98, 181); text-decoration: none;
+}
+.WEB_TXT_subtituloNoticia a:hover {
+	color: rgb(54, 98, 181); text-decoration: underline;
+}
+.WEB_TXT_subtituloNoticia a:active {
+	color: rgb(54, 98, 181); text-decoration: none;
+}
+.WEB_TXT_fechaNoticia {
+	font: 10px/normal "Trebuchet MS"; margin: 0px 0px 5px; color: rgb(54, 98, 181); font-size-adjust: none; font-stretch: normal;
+}
+.WEB_TXT_resumenNoticia {
+	font: 10px/11px "Trebuchet MS"; margin: 0px; color: rgb(119, 119, 119); font-size-adjust: none; font-stretch: normal;
+}
+.WEB_TXT_resumenNoticia a:link {
+	color: rgb(119, 119, 119); text-decoration: none;
+}
+.WEB_TXT_resumenNoticia a:visited {
+	color: rgb(119, 119, 119); text-decoration: none;
+}
+.WEB_TXT_resumenNoticia a:hover {
+	color: rgb(119, 119, 119); text-decoration: underline;
+}
+.WEB_TXT_resumenNoticia a:active {
+	color: rgb(119, 119, 119); text-decoration: none;
+}
+.WEB_TXT_enlaceNoticia {
+	background: url("images/web/vineta_detalleTipoCambio.gif") no-repeat 0px 2px; font: bold 10px/normal Arial, Helvetica, sans-serif; margin: 18px 0px 0px; color: rgb(0, 67, 181); padding-left: 13px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_TXT_enlaceNoticia a:link {
+	color: rgb(0, 67, 181); text-decoration: none;
+}
+.WEB_TXT_enlaceNoticia a:visited {
+	color: rgb(0, 67, 181); text-decoration: none;
+}
+.WEB_TXT_enlaceNoticia a:hover {
+	color: rgb(0, 67, 181); text-decoration: underline;
+}
+.WEB_TXT_enlaceNoticia a:active {
+	color: rgb(0, 67, 181); text-decoration: none;
+}
+.WEB_TBL_noticia {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none; width: 100%; height: auto; border-collapse: collapse;
+}
+.WEB_TD_titulo {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none; width: 164px; height: auto; vertical-align: top; border-collapse: collapse;
+}
+.WEB_TD_noticiaResumen {
+	margin: 0px; padding: 0px 5px 0px 0px; border: currentColor; border-image: none; width: 164px; height: auto; vertical-align: top; border-collapse: collapse;
+}
+.WEB_TD_noticiaImagen {
+	margin: 0px; padding: 0px; width: 60px; height: auto; text-align: left; vertical-align: top; border-collapse: collapse;
+}
+.WEB_TD_noticiaImagen img {
+	padding: 2px; border: 1px solid rgb(191, 200, 217); border-image: none;
+}
+.WEB_CONTE_bloqueHome_f3_c1 {
+	background: url("images/home/fondo_bloque_home.gif") repeat-x rgb(255, 255, 255); padding: 28px 0px 8px 22px; width: auto; height: auto;
+}
+.WEB_CONTE_banner {
+	width: 162px; height: auto; margin-right: 22px; float: left; display: inline;
+}
+.WEB_CONTE_banner img {
+	background: url("images/home/fondo_pie_banner_home.gif") no-repeat 0px bottom; margin: 0px auto; padding-bottom: 12px; display: block; cursor: pointer;
+}
+.WEB_CONTE_enlacesRapidos {
+	padding: 0px 0px 0px 22px; width: 244px; height: auto; float: left;
+}
+.WEB_CONTE_tituloEnlacesRapidos {
+	padding: 0px 0px 10px; width: auto; height: auto;
+}
+.WEB_CONTE_tituloEnlacesRapidos h3 {
+	font: 11px/normal Arial, Helvetica, sans-serif; margin: 0px; color: rgb(0, 36, 105); font-size-adjust: none; font-stretch: normal;
+}
+.WEB_CONTE_listaEnlacesRapidos {
+	width: auto; height: auto;
+}
+.WEB_CONTE_listaEnlacesRapidos ul {
+	list-style: none; margin: 0px; padding: 0px; width: auto; height: auto; clear: left; border-collapse: collapse;
+}
+.WEB_CONTE_listaEnlacesRapidos li {
+	background: url("images/web/vineta_enlace_rapido.gif") no-repeat 1px 9px; font: bold 11px/normal "Trebuchet MS"; list-style: none; margin: 0px; padding: 6px 0px 6px 20px; width: 224px; height: auto; color: rgb(0, 67, 181); clear: left; border-bottom-color: rgb(191, 200, 217); border-bottom-width: 1px; border-bottom-style: solid; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_CONTE_listaEnlacesRapidos li a:link {
+	color: rgb(0, 67, 181); text-decoration: none;
+}
+.WEB_CONTE_listaEnlacesRapidos li a:visited {
+	color: rgb(0, 67, 181); text-decoration: none;
+}
+.WEB_CONTE_listaEnlacesRapidos li a:hover {
+	color: rgb(0, 67, 181); text-decoration: underline;
+}
+.WEB_CONTE_listaEnlacesRapidos li a:active {
+	color: rgb(0, 67, 181); text-decoration: none;
+}
+.WEB_CONTE_menuJerarquia {
+	padding: 16px 0px 20px; width: auto; height: auto;
+}
+.WEB_CONTE_bannerIzquierdo {
+	padding: 10px 0px; width: auto; height: auto;
+}
+.WEB_CONTE_bannerIzquierdo img {
+	background: url("images/web/fondo_pie_banner.gif") no-repeat 0px bottom; margin: 0px auto; padding-bottom: 12px; display: block; cursor: pointer;
+}
+.WEB_CONTE_bannerIzquierdo object {
+	background: url("images/web/fondo_pie_banner.gif") no-repeat 0px bottom; margin: 0px auto; padding-bottom: 12px; display: block; cursor: pointer;
+}
+.WEB_CONTE_piePagina {
+	width: 776px; height: 113px; position: relative;
+}
+.WEB_CONTE_zonaDireccion {
+	top: 0px; width: 492px; height: 82px; right: 24px; position: absolute;
+}
+.WEB_CONTE_zonaDireccion table {
+	margin: 0px; padding: 0px; width: auto; height: 82px; border-collapse: collapse;
+}
+.WEB_CONTE_zonaDireccion table td {
+	margin: 0px; padding: 0px; width: auto; height: auto; text-align: center; vertical-align: middle; border-collapse: collapse;
+}
+.WEB_CONTE_creditos {
+	font: 10px/normal Arial, Helvetica, sans-serif; top: 118px; width: auto; height: 16px; right: 0px; color: rgb(0, 36, 105); overflow: hidden; position: absolute; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_CONTE_bannerPie {
+	background: url("images/web/fondo_pie_estado.gif") no-repeat 0px bottom; left: 30px; top: 22px; width: 140px; height: auto; padding-bottom: 12px; position: absolute; cursor: pointer;
+}
+.WEB_CONTE_bannerPie img {
+	display: block;
+}
+.WEB_CONTE_opcionesPiePagina {
+	left: 20px; top: 90px; width: auto; height: auto; position: absolute;
+}
+.WEB_CONTE_opcionesPiePagina ul {
+	list-style: none; margin: 0px; padding: 0px; width: auto; height: auto; clear: both;
+}
+.WEB_CONTE_opcionesPiePagina li {
+	font: 10px/normal "Trebuchet MS"; list-style: none; margin: 0px 8px 0px 0px; width: auto; height: auto; color: rgb(255, 255, 255); float: left; display: inline; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_CONTE_opcionesPiePagina li a:link {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.WEB_CONTE_opcionesPiePagina li a:visited {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.WEB_CONTE_opcionesPiePagina li a:hover {
+	color: rgb(255, 255, 255); text-decoration: underline;
+}
+.WEB_CONTE_opcionesPiePagina li a:active {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.WEB_CONTE_opcionesPiePagina li span {
+	font-weight: bold;
+}
+.WEB_CONTE_descargasPiePagina {
+	left: 515px; top: 90px; width: auto; height: auto; position: absolute;
+}
+.WEB_CONTE_descargasPiePagina ul {
+	list-style: none; margin: 0px; padding: 0px; width: auto; height: auto; clear: both;
+}
+.WEB_CONTE_descargasPiePagina li {
+	font: 10px/normal "Trebuchet MS"; list-style: none; margin: 0px 10px 0px 0px; width: auto; height: auto; color: rgb(255, 255, 255); float: left; display: inline; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_CONTE_descargasPiePagina li a:link {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.WEB_CONTE_descargasPiePagina li a:visited {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.WEB_CONTE_descargasPiePagina li a:hover {
+	color: rgb(255, 255, 255); text-decoration: underline;
+}
+.WEB_CONTE_descargasPiePagina li a:active {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.WEB_iconoFlashPlayer {
+	background: url("images/web/icono_flash.gif") no-repeat; padding-left: 20px;
+}
+.WEB_iconoAdobeReader {
+	background: url("images/web/icono_reader.gif") no-repeat; padding-left: 20px;
+}
+.WEB_CONTE_interno {
+	background: url("images/web/fondo_interna.gif") repeat-x; padding: 5px 22px 0px; width: auto; height: auto;
+}
+.WEB_CONTE_navegacion {
+	padding: 12px 0px; width: auto; height: auto; border-bottom-color: rgb(191, 200, 217); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.WEB_CONTE_navegacion ul {
+	margin: 0px; padding: 0px; width: auto; height: auto; text-align: left; line-height: 10px;
+}
+.WEB_CONTE_navegacion li {
+	font: 10px/normal "Trebuchet MS"; margin: 0px 7px 0px 0px; width: auto; height: auto; color: rgb(0, 36, 105); display: inline; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_CONTE_navegacion li a:link {
+	color: rgb(0, 36, 105); text-decoration: none;
+}
+.WEB_CONTE_navegacion li a:visited {
+	color: rgb(0, 36, 105); text-decoration: none;
+}
+.WEB_CONTE_navegacion li a:hover {
+	color: rgb(0, 36, 105); text-decoration: underline;
+}
+.WEB_CONTE_navegacion li a:active {
+	color: rgb(0, 36, 105); text-decoration: none;
+}
+.WEB_navegacionVineta {
+	background: url("images/web/vineta_navegacion.gif") no-repeat 0px 5px; width: 3px; height: 5px; overflow: hidden;
+}
+.WEB_CONTE_titulo {
+	padding: 26px 0px 18px; width: auto; height: auto;
+}
+.WEB_CONTE_titulo h1 {
+	font: bold 13px/normal "Trebuchet MS"; margin: 0px; color: rgb(0, 36, 105); text-transform: uppercase; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_CONTE_menuInterna {
+	width: 532px; height: auto;
+}
+.WEB_CONTE_menuInterna ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.WEB_CONTE_menuInterna li {
+	background: url("images/modulos/vineta_menu_interna.gif") no-repeat 0px 6px; font: bold 13px/normal "Century Gothic"; list-style: none; margin: 0px; padding: 0px 0px 0px 8px; color: rgb(81, 121, 163); font-size-adjust: none; font-stretch: normal;
+}
+* html .WEB_CONTE_menuInterna li {
+	background: url("images/modulos/vineta_menu_interna.gif") no-repeat 0px 8px;
+}
+* + html .WEB_CONTE_menuInterna li {
+	background: url("images/modulos/vineta_menu_interna.gif") no-repeat 0px 8px;
+}
+.WEB_CONTE_menuInterna li a:link {
+	color: rgb(81, 121, 163); text-decoration: none;
+}
+.WEB_CONTE_menuInterna li a:visited {
+	color: rgb(81, 121, 163); text-decoration: none;
+}
+.WEB_CONTE_menuInterna li a:hover {
+	color: rgb(0, 36, 105); text-decoration: underline;
+}
+.WEB_CONTE_menuInterna li a:active {
+	color: rgb(81, 121, 163); text-decoration: none;
+}
+.WEB_CONTE_menuInternaNivel1 {
+	width: 532px; height: 30px;
+}
+.WEB_CONTE_menuBotonesNivel1 {
+	width: 32px; height: 30px; float: left;
+}
+.WEB_botonIzqPasoNivel1 {
+	background: red; width: 16px; height: 30px; float: left;
+}
+.WEB_botonIzqPasoNivel1_on {
+	background: maroon; width: 16px; height: 30px; float: left;
+}
+.WEB_botonIzqInicioNivel1 {
+	background: orange; width: 16px; height: 30px; float: left;
+}
+.WEB_botonIzqInicioNivel1_on {
+	background: maroon; width: 16px; height: 30px; float: left;
+}
+.WEB_botonDerPasoNivel1 {
+	background: red; width: 16px; height: 30px; float: left;
+}
+.WEB_botonDerPasoNivel1_on {
+	background: maroon; width: 16px; height: 30px; float: left;
+}
+.WEB_botonDerFinalNivel1 {
+	background: orange; width: 16px; height: 30px; float: left;
+}
+.WEB_botonDerFinalNivel1_on {
+	background: maroon; width: 16px; height: 30px; float: left;
+}
+.WEB_CONTE_menuInternaArea {
+	background: lime; width: 468px; height: 30px; overflow: hidden; float: left; position: relative;
+}
+.WEB_CONTE_menuInternaBloqueNivel1 {
+	left: 0px; top: 0px; width: 20000em; height: 30px; overflow: hidden; position: absolute; z-index: 10;
+}
+.WEB_menuInternaNivel1 {
+	background: yellow; font: 11px/normal Arial, Helvetica, sans-serif; padding: 8px; width: auto; height: auto; color: black; float: left; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_menuInternaNivel1_on {
+	background: green; font: 11px/normal Arial, Helvetica, sans-serif; padding: 8px; width: auto; height: auto; color: black; float: left; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_menuInternaSeparacion {
+	background: fuchsia; width: 1px; height: 30px; float: left;
+}
+.WEB_CONTE_opcionesInterno {
+	width: auto; height: 32px; border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid; position: relative;
+}
+.WEB_iconoImpresion {
+	background: url("images/web/icono_imprimir.gif") no-repeat left 6px; font: 10px/normal "Trebuchet MS"; padding: 2px 0px 2px 15px; top: 10px; right: 234px; color: rgb(6, 80, 128); position: absolute; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_iconoImpresion a:link {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoImpresion a:visited {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoImpresion a:hover {
+	color: black; text-decoration: underline;
+}
+.WEB_iconoImpresion a:active {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoFavoritos {
+	background: url("images/web/icono_agregar_favoritos.gif") no-repeat left 3px; font: 10px/normal "Trebuchet MS"; padding: 2px 0px 2px 18px; top: 10px; right: 112px; color: rgb(6, 80, 128); position: absolute; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_iconoFavoritos a:link {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoFavoritos a:visited {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoFavoritos a:hover {
+	color: black; text-decoration: underline;
+}
+.WEB_iconoFavoritos a:active {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoRecomendar {
+	background: url("images/web/icono_enviar_amigo.gif") no-repeat left 5px; font: 10px/normal "Trebuchet MS"; padding: 2px 0px 2px 16px; top: 10px; right: 0px; color: rgb(6, 80, 128); position: absolute; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_iconoRecomendar a:link {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoRecomendar a:visited {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoRecomendar a:hover {
+	color: black; text-decoration: underline;
+}
+.WEB_iconoRecomendar a:active {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoRSS {
+	background: url("images/web/icono_rss.gif") no-repeat right 10px; font: bold 11px/normal "Trebuchet MS"; padding: 10px 70px 2px 0px; top: 28px; right: 0px; color: rgb(6, 80, 128); position: absolute; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_iconoRSS a:link {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoRSS a:visited {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoRSS a:hover {
+	color: rgb(51, 51, 51); text-decoration: underline;
+}
+.WEB_iconoRSS a:active {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoReiniciarLetra {
+	font: bold 11px/normal "Trebuchet MS"; padding: 2px 0px; left: 0px; top: 9px; color: rgb(6, 80, 128); position: absolute; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_iconoReiniciarLetra a:link {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoReiniciarLetra a:visited {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoReiniciarLetra a:hover {
+	color: rgb(51, 51, 51); text-decoration: underline;
+}
+.WEB_iconoReiniciarLetra a:active {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoDisminuirLetra {
+	background: url("images/web/icono_letra_disminuir.gif") no-repeat right 6px; font: bold 11px/normal "Trebuchet MS"; padding: 2px 0px; left: 20px; top: 9px; color: rgb(6, 80, 128); position: absolute; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_iconoDisminuirLetra a:link {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoDisminuirLetra a:visited {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoDisminuirLetra a:hover {
+	color: rgb(51, 51, 51); text-decoration: underline;
+}
+.WEB_iconoDisminuirLetra a:active {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoAumentarLetra {
+	background: url("images/web/icono_letra_aumentar.gif") no-repeat right 6px; font: bold 11px/normal "Trebuchet MS"; padding: 2px 0px; left: 42px; top: 9px; color: rgb(6, 80, 128); position: absolute; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_iconoAumentarLetra a:link {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoAumentarLetra a:visited {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_iconoAumentarLetra a:hover {
+	color: rgb(51, 51, 51); text-decoration: underline;
+}
+.WEB_iconoAumentarLetra a:active {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_CONTE_placeHolderInterno {
+	padding: 0px; width: auto; height: auto;
+}
+.WEB_CONTE_contenidoHolder {
+	padding: 0px 22px; width: auto; height: auto;
+}
+.WEB_CONTE_pieInterno {
+	padding: 15px 22px 0px; width: auto; height: auto; overflow: hidden;
+}
+.WEB_CONTE_enlacesInterno {
+	width: auto; height: 30px; border-top-color: rgb(236, 238, 244); border-top-width: 1px; border-top-style: solid; position: relative;
+}
+.WEB_vinetaSubir {
+	background: url("images/web/icono_subir.gif") no-repeat left 5px; font: 10px/normal "Trebuchet MS"; padding: 2px 0px 6px 15px; top: 5px; right: 0px; color: rgb(6, 80, 128); position: absolute; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_vinetaSubir a:link {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_vinetaSubir a:visited {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_vinetaSubir a:hover {
+	color: black; text-decoration: underline;
+}
+.WEB_vinetaSubir a:active {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_vinetaImprimir {
+	background: url("images/web/icono_imprimir.gif") no-repeat left 5px; font: 10px/normal "Trebuchet MS"; padding: 2px 0px 2px 15px; left: 0px; top: 5px; color: rgb(6, 80, 128); position: absolute; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_vinetaImprimir a:link {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_vinetaImprimir a:visited {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_vinetaImprimir a:hover {
+	color: black; text-decoration: underline;
+}
+.WEB_vinetaImprimir a:active {
+	color: rgb(6, 80, 128); text-decoration: none;
+}
+.WEB_CONTE_combo {
+	width: auto; height: auto; padding-bottom: 10px;
+}
+.WEB_CONTE_combo select {
+	padding: 0px;
+}
+.WEB_TBL_cabecera {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; width: 100%; height: auto; border-collapse: collapse;
+}
+.WEB_TBL_cabecera td {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; width: auto; height: auto; border-collapse: collapse;
+}
+.WEB_TD_comboTitulo {
+	padding: 0px !important; width: 125px !important; height: auto;
+}
+.WEB_TD_comboTitulo p {
+	font: bold 11px/normal "Trebuchet MS", Arial, Helvetica, sans-serif; margin: 0px; color: rgb(0, 36, 105); font-size-adjust: none; font-stretch: normal;
+}
+.WEB_FRM_combo {
+	font: 11px/normal Arial, Helvetica, sans-serif; margin: 0px; color: rgb(0, 0, 0); font-size-adjust: none; font-stretch: normal;
+}
+.WEB_paginador {
+	font: 10px/normal "Trebuchet MS", Arial, Helvetica, sans-serif; margin: 0px; padding: 12px 5px 0px; width: auto; height: auto; text-align: right; color: rgb(0, 36, 105); font-size-adjust: none; font-stretch: normal;
+}
+.WEB_paginador a:link {
+	color: rgb(0, 36, 105); text-decoration: none;
+}
+.WEB_paginador a:visited {
+	color: rgb(0, 36, 105); text-decoration: none;
+}
+.WEB_paginador a:hover {
+	color: rgb(116, 181, 207); text-decoration: underline;
+}
+.WEB_paginador a:active {
+	color: rgb(0, 36, 105); text-decoration: none;
+}
+.WEB_textoPagSeleccionado {
+	font: 10px/normal "Trebuchet MS", Arial, Helvetica, sans-serif; margin: 0px; color: rgb(116, 181, 207) !important; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_textoPagSeleccionado a:link {
+	color: rgb(116, 181, 207) !important; text-decoration: none;
+}
+.WEB_textoPagSeleccionado a:visited {
+	color: rgb(116, 181, 207) !important; text-decoration: none;
+}
+.WEB_textoPagSeleccionado a:hover {
+	color: rgb(116, 181, 207) !important; text-decoration: underline;
+}
+.WEB_textoPagSeleccionado a:active {
+	color: rgb(116, 181, 207) !important; text-decoration: none;
+}
+.WEB_CONTE_mensaje {
+	padding: 12px 12px 0px; width: auto; height: auto;
+}
+.WEB_mensajeInformacion {
+	background: url("images/web/icono_informacion.gif") no-repeat; font: 11px/normal "Trebuchet MS", Arial, Helvetica, sans-serif; margin: 0px; color: rgb(0, 36, 105); padding-left: 26px; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_mensajeInformacion a:link {
+	color: rgb(0, 36, 105); text-decoration: underline;
+}
+.WEB_mensajeInformacion a:visited {
+	color: rgb(0, 36, 105); text-decoration: underline;
+}
+.WEB_mensajeInformacion a:hover {
+	color: rgb(0, 36, 105); text-decoration: none;
+}
+.WEB_mensajeInformacion a:active {
+	color: rgb(0, 36, 105); text-decoration: underline;
+}
+.WEB_mensajeError {
+	background: url("images/web/icono_error.gif") no-repeat; font: 11px/normal "Trebuchet MS", Arial, Helvetica, sans-serif; margin: 0px; color: rgb(219, 48, 48); padding-left: 26px; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_mensajeError a:link {
+	color: rgb(219, 48, 48); text-decoration: underline;
+}
+.WEB_mensajeError a:visited {
+	color: rgb(219, 48, 48); text-decoration: underline;
+}
+.WEB_mensajeError a:hover {
+	color: rgb(219, 48, 48); text-decoration: none;
+}
+.WEB_mensajeError a:active {
+	color: rgb(219, 48, 48); text-decoration: underline;
+}
+.WEB_mensajeAdvertencia {
+	background: url("images/web/icono_advertencia.gif") no-repeat; font: 11px/normal "Trebuchet MS", Arial, Helvetica, sans-serif; margin: 0px; color: rgb(0, 36, 105); padding-left: 28px; font-size-adjust: none; font-stretch: normal;
+}
+.WEB_mensajeAdvertencia a:link {
+	color: rgb(0, 36, 105); text-decoration: underline;
+}
+.WEB_mensajeAdvertencia a:visited {
+	color: rgb(0, 36, 105); text-decoration: underline;
+}
+.WEB_mensajeAdvertencia a:hover {
+	color: rgb(0, 36, 105); text-decoration: none;
+}
+.WEB_mensajeAdvertencia a:active {
+	color: rgb(0, 36, 105); text-decoration: underline;
+}

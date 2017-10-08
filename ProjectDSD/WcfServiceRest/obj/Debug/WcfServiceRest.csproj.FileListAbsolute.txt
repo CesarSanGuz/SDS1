@@ -1,0 +1,7 @@
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\WcfServiceRest\bin\WcfServiceRest.dll.config
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\WcfServiceRest\bin\WcfServiceRest.dll
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\WcfServiceRest\bin\WcfServiceRest.pdb
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\WcfServiceRest\obj\Debug\WcfServiceRest.csproj.CoreCompileInputs.cache
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\WcfServiceRest\obj\Debug\WcfServiceRest.dll
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\WcfServiceRest\obj\Debug\WcfServiceRest.pdb
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\WcfServiceRest\obj\Debug\WcfServiceRest.csprojResolveAssemblyReference.cache

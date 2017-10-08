@@ -1,0 +1,13 @@
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\TestProjectRest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\TestProjectRest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\TestProjectRest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\TestProjectRest\bin\Debug\TestProjectRest.dll
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\TestProjectRest\bin\Debug\TestProjectRest.pdb
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\TestProjectRest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\TestProjectRest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\TestProjectRest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\TestProjectRest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\TestProjectRest\obj\Debug\TestProjectRest.csprojResolveAssemblyReference.cache
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\TestProjectRest\obj\Debug\TestProjectRest.csproj.CoreCompileInputs.cache
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\TestProjectRest\obj\Debug\TestProjectRest.dll
+C:\Users\CSanchez\Documents\ProjectDSD\ProjectDSD\TestProjectRest\obj\Debug\TestProjectRest.pdb

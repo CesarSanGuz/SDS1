@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MrPageKaraoke.master.cs" Inherits="WebAppKaraoke.View.MrPageKaraoke" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <telerik:RadScriptManager runat="server" ID="RadScriptManager1" />
+        <table style="width: 100%">
+            <tbody>
+                <tr>
+                    <td>
+                        <div style="float: left">
+                            <img src="../fonts/LOGO-ETNIA.png" width="200"/>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="float: right; width: 100%;">
+                            <telerik:RadButton ForeColor="Orange" BorderColor="Black" OnClick="Salir_Click"  BackColor="Black" runat="server" ID="btnSalir" Text="Salir"></telerik:RadButton>
+                            <%--<ul>
+                                
+                                <li><a href="Vista_Venta.aspx">Salir</a></li>
+                            </ul>--%>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <asp:Table runat="server" Width="100%">
+            <asp:TableRow>
+                <asp:TableCell Width="100%">
+                    <telerik:RadMenu Skin="Glow" RenderMode="Lightweight" ID="RadMenu1" runat="server" ShowToggleHandle="true">
+                        <Items>                            
+                            <telerik:RadMenuItem runat="server" Text="Ventas" NavigateUrl="Vista_Venta.aspx" Width="30%"/>
+                            <telerik:RadMenuItem  runat="server" Text="Stock" NavigateUrl="Stock.aspx" Width="30%"/>
+                        </Items>
+                    </telerik:RadMenu>
+                </asp:TableCell>
+            </asp:TableRow>
+        </asp:Table>
+        <br />
+        <asp:Table runat="server" Width="100%"  BorderWidth="1" BorderColor="OrangeRed">
+            <asp:TableRow>
+                <asp:TableCell>
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </asp:TableCell>
+            </asp:TableRow>
+        </asp:Table>
+    </form>
+</body>
+</html>
