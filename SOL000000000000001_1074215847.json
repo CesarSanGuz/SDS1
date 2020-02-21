@@ -1,0 +1,114 @@
+{
+	"header": {
+		"solicitud":"SOL000000000000001",
+		"usuario":"10742158476"
+	},
+	"opcionfirma": "0",
+	"tiponotificacion": [
+		{
+			"tipo": "buzon",
+			"valor": "10742158476"
+		},
+		{
+			"tipo": "sms",
+			"valor": "51959792986"
+		},
+		{
+			"tipo": "email",
+			"valor": "cesarsanguz@gmail.com"
+		}
+	],
+	"detalle": {
+		"texto": [
+			{
+				"campo":"BKM_DATOS",
+				"valor":"Esta parte se orienta al tratamiento de datos estadísticos, esto es, al análisis estadísticos de poblaciones finitas. Para estas poblaciones, analiza una o más características, con el objeto de resumir el comportamiento de cada una de ellas dentro de la población, o la relación entre varias."
+			},
+			{
+				"campo":"BKM_CPBS",
+				"valor":"El presente trabajo de investigación titulada “Análisis económico y financiero del CPBS Servicentro UNA-Puno y su influencia en la toma de decisiones gerenciales, periodos 2017 – 2018”; fue realizado en la ciudad de Puno. Teniendo como actividad principal la comercialización de Combustibles líquidos..."
+			},
+			{
+				"campo":"BKM_BUZON",
+				"valor":"Definición de buzón. Se denomina buzón al lugar donde se pueden depositar las cartas y otras documentaciones. ... Por lo general los buzones se instalan en el ingreso a una vivienda. De este modo los trabajadores del servicio postal (los carteros) pueden depositar la correspondencia en ellos."
+			},
+			{
+				"campo":"BKM_TRAZABILIDAD",
+				"valor":"Se entiende trazabilidad como el conjunto de aquellos procedimientos preestablecidos y autosuficientes que permiten conocer el histórico, la ubicación y la trayectoria de un producto o lote de productos a lo largo de la cadena de suministros en un momento dado, a través de unas herramientas determinadas."
+			}
+		],
+		"imagen": [
+			{
+				"campo":"IMG_ADJUNTOS",
+				"valor":"logo.png",
+				"h":"99",
+				"w":"238"
+			},
+			{
+				"campo":"IMG_DOCUMENTOS",
+				"valor":"firmadigital.jpg",
+				"h":"99",
+				"w":"238"
+			}
+		],
+		"tabla": [
+			{
+				"campo":"DS_TABLA1",
+				"valores":[
+					{
+						"fila":[
+							{
+								"campo":"DT_1",
+								"valor":"Eugenio 1"
+							},
+							{
+								"campo":"DT_2",
+								"valor":"Eugenio 2"
+							},
+							{
+								"campo":"DT_3",
+								"valor":"Eugenio 3"
+							}
+						]
+						
+					},
+					{
+						"fila":[
+							{
+								"campo":"DT_1",
+								"valor":"Cesar 1"
+							},
+							{
+								"campo":"DT_2",
+								"valor":"Cesar 2"
+							},
+							{
+								"campo":"DT_3",
+								"valor":"Cesar 3"
+							}
+						]
+						
+					},
+					{
+						"fila":[
+							{
+								"campo":"DT_1",
+								"valor":"Napoleon 1"
+							},
+							{
+								"campo":"DT_2",
+								"valor":"Napoleon 2"
+							},
+							{
+								"campo":"DT_3",
+								"valor":"Napoleon 3"
+							}
+						]
+						
+					}
+				]
+			}
+		]
+		
+	}
+}
